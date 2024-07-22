@@ -140,6 +140,11 @@ html{
 
 }
 
+/* .home-content{
+
+    margin-left: 300px;
+} */
+
 .home .home-content .text-2{
 
     font-size: 75px;
@@ -312,13 +317,16 @@ section{
     background: crimson;
 }
 .skills-content .right .html::before{
-    width: 80%;
+    width: 90%;
 }
 .skills-content .right .css::before{
-    width: 60%;
+    width: 70%;
 }
 .skills-content .right .js::before{
-    width: 50%;
+    width: 80%;
+}
+.skills-content .right .rjs::before{
+    width: 75%;
 }
 .skills-content .right .py::before{
     width: 60%;
@@ -329,9 +337,14 @@ section{
 .skills-content .right .cc::before{
     width: 40%;
 }
+.skills-content .right .DB::before{
+    width: 30%;
+}
 .skills-content .right .sql::before{
     width: 30%;
 }
+
+
 
 
 
@@ -355,8 +368,10 @@ section{
 
 }
 .projects .carousel .card{
+   
+    
     background:#222;
-    border-radius: 6px;
+    border-radius: 16px;
     padding: 25px 35px;
     text-align: center;
     transition: all 0.3s ease;
@@ -384,7 +399,7 @@ section{
 
 .projects .carousel .card img{
     height: 200px;
-    width: 180px;
+    width: 200px;
     object-fit: cover;
     border-radius: 10%;
     border: 5px solid crimson;
