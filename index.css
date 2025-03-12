@@ -326,6 +326,9 @@ section{
     width: 80%;
 }
 .skills-content .right .rjs::before{
+    width: 80%;
+}
+.skills-content .right .njs::before{
     width: 75%;
 }
 .skills-content .right .py::before{
